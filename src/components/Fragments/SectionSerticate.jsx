@@ -12,9 +12,9 @@ const SectionCertificate = () => {
     >
       <SubTitle title="Certification" />
       <div className="flex w-10/12 flex-col gap-4 sm:w-9/12 sm:flex-row">
-        <CardCertificate img="/img/project-2.png" />
-        <CardCertificate delay={200} img="/img/project-1.png" />
-        <CardCertificate delay={400} img="/img/project-2.png" />
+        <CardCertificate img="/img/certificate-1.png" />
+        <CardCertificate delay={200} img="/img/certificate-1.png" />
+        <CardCertificate delay={400} img="/img/certificate-1.png" />
       </div>
       <RadialShadow position="top-0 right-15" blur="blur-[6rem]" />
       <RadialShadow position="-bottom-20 left-0" blur="blur-[6rem]" />
@@ -32,7 +32,7 @@ const CardCertificate = ({ delay, img }) => {
     <Fragment>
       <AnimatedItem delay={delay}>
         <div
-          className="group relative h-45 w-80 cursor-pointer bg-white/20 p-1 shadow-md"
+          className="group relative h-50 w-80 cursor-pointer bg-slate-500 p-2 shadow-md"
           onClick={handleShowModal}
         >
           <div className="invisible absolute top-0 left-0 flex size-full items-center justify-center bg-black/40 text-white opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">

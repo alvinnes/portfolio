@@ -10,7 +10,7 @@ const SectionAbout = () => {
       className="relative flex w-full flex-col items-center py-30 text-white"
     >
       <AnimatedItem direction="vertical" reverse={true} delay={500}>
-        <h2 className="mb-15 sm:-ml-30 text-2xl font-semibold">About Me</h2>
+        <h2 className="mb-15 text-2xl font-semibold sm:-ml-30">About Me</h2>
       </AnimatedItem>
       <div className="flex w-11/12 flex-col items-center justify-evenly sm:flex-row">
         <AnimatedContent
@@ -23,15 +23,15 @@ const SectionAbout = () => {
           delay={300}
           scale={1.1}
         >
-          <div className="size-60 overflow-hidden rounded-full bg-white p-2 sm:size-70">
+          <div className="size-60 overflow-hidden rounded-full bg-white p-2 sm:size-80">
             <img
-              src="/img/picture.png"
+              src="/img/foto.png"
               alt="foto-profile"
-              className="size-full rounded-full bg-slate-700 object-cover"
+              className="size-full rounded-full bg-slate-700 object-top object-cover"
             />
           </div>
         </AnimatedContent>
-        <div className="mt-8 flex w-10/12 flex-col items-center text-center sm:text-left sm:items-start sm:mt-0 sm:w-lg">
+        <div className="mt-8 flex w-10/12 flex-col items-center text-center sm:mt-0 sm:w-lg sm:items-start sm:text-left">
           <AnimatedItem delay={300} direction="horizontal" reverse={false}>
             <TrueFocus
               sentence="I'm Frontend Developer"
@@ -46,12 +46,7 @@ const SectionAbout = () => {
 
           <AnimatedItem direction="horizontal" reverse={false}>
             <p className="mt-4 text-sm text-slate-300">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              perspiciatis voluptatibus nam a, voluptatum voluptas officia
-              numquam rem dolorum modi deserunt quaerat laboriosam deleniti
-              harum error. Ea, ex voluptas ipsum temporibus fuga numquam non
-              officia, esse voluptatum fugit a possimus odio animi hic? Dolor
-              fugit possimus aperiam ipsam? Amet, consequuntur.
+            Hi! I'm alvin, a web developer focused on user experience (UX) and React-based applications. I specialize in building dynamic user interfaces using React and JavaScript. I also have experience in developing applications using TypeScript. I always prioritize efficiency and accessibility, ensuring that every application I build provides a fast and easily accessible user experience for everyone, anywhere. I'm passionate about continuously improving my web development skills and am eager to collaborate with teams focused on innovation and relevant technological solutions. Feel free to reach out if you're interested in collaborating or checking out more of my projects below.
             </p>
           </AnimatedItem>
         </div>

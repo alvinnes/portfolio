@@ -1,0 +1,26 @@
+[
+  {
+    "img": "/img/project-2.png",
+    "title": "Website Game Tic Tac Toe",
+    "url": "https://alvinnes.github.io/tic-tac-toe.github.io/",
+    "delay": 0
+  },
+  {
+    "img": "/img/project-3.png",
+    "title": "Simple Kalkulator App",
+    "url": "/projects/kalkulator/index.html",
+    "delay": 200
+  },
+  {
+    "img": "/img/project-4.png",
+    "title": "Simple To-do-list App",
+    "url": "https://to-do-list-kappa-two-32.vercel.app/",
+    "delay": 400
+  },
+  {
+    "img": "/img/project-5.png",
+    "title": "Wibuku",
+    "url": "https://wibuku-alvinnes-projects.vercel.app/",
+    "delay": 600
+  }
+]

@@ -16,8 +16,7 @@ const Sidebar = () => {
     <nav
       className={`${isClicked ? "right-0 opacity-100" : "-right-full opacity-0"} fixed top-0 z-80 flex h-screen w-7/12 flex-col bg-slate-900 px-3 py-20 text-white transition-all duration-500`}
     >
-      <h3 className="text-xl font-semibold">Alvinnes</h3>
-      <hr className="mt-4 w-full text-white" />
+      {/* <hr className="mt-4 w-full text-white" /> */}
       <ul className="mt-8 flex flex-col gap-4">
         <NavigationItem text="Home" link="#home" icon={<HouseSimple />} />
         <NavigationItem text="About" link="#about" icon={<AddressBook />} />

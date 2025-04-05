@@ -11,7 +11,7 @@ const SectionHome = () => {
       className="relative flex h-screen w-full flex-col-reverse items-center justify-center sm:flex-row"
       id="home"
     >
-      <div className="ml-8 w-10/12 text-white sm:ml-0 sm:w-xl">
+      <div className="ml-8 w-11/12 text-white sm:ml-0 sm:w-xl">
         <AnimatedItem distance={50} direction="vertical" reverse={true}>
           <div className="mb-4 ml-1 flex items-center gap-3">
             <ShinyText
@@ -43,8 +43,9 @@ const SectionHome = () => {
         />
         <AnimatedItem distance={50} direction="horizontal" reverse={true}>
           <p className="mb-2 w-11/12 text-sm sm:mb-4 sm:w-lg">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            iste dicta itaque architecto dolore aliquid voluptates
+            Hi, I'm alvin, a web developer focused on building interactive and
+            responsive applications using React, JavaScript, and modern
+            technologies.
           </p>
         </AnimatedItem>
         <div className="flex gap-6">
@@ -80,9 +81,9 @@ const SectionHome = () => {
           threshold={0.2}
         >
           <img
-            src="/img/asset-1.png"
+            src="/img/picture.png"
             alt="ilustrasi orang"
-            className="mb-8 h-70 w-85 sm:mb-0 sm:h-110 sm:w-125"
+            className="mb-3 h-85 w-85 sm:mb-0 sm:h-125 sm:w-125"
           />
         </AnimatedContent>
       </div>
