@@ -2,6 +2,7 @@ import TrueFocus from "../../react-bits/components/TrueFocus/TrueFocus";
 import ScrollVelocity from "../../react-bits/components/ScrollVelocity/ScrollVelocity";
 import AnimatedContent from "../../react-bits/components/AnimatedContent/AnimatedContent";
 import RadialShadow from "../Elements/RadialShadow";
+import SubTitle from "../Elements/SubTitle";
 
 const SectionAbout = () => {
   return (
@@ -9,9 +10,7 @@ const SectionAbout = () => {
       id="about"
       className="relative flex w-full flex-col items-center py-30 text-white"
     >
-      <AnimatedItem direction="vertical" reverse={true} delay={500}>
-        <h2 className="mb-15 text-2xl font-semibold sm:-ml-30">About Me</h2>
-      </AnimatedItem>
+      <SubTitle title={"About Me"} />
       <div className="flex w-11/12 flex-col items-center justify-evenly sm:flex-row">
         <AnimatedContent
           distance={50}
@@ -27,7 +26,7 @@ const SectionAbout = () => {
             <img
               src="/img/foto.png"
               alt="foto-profile"
-              className="size-full rounded-full bg-slate-700 object-top object-cover"
+              className="size-full rounded-full bg-slate-700 object-cover object-top"
             />
           </div>
         </AnimatedContent>
@@ -45,8 +44,19 @@ const SectionAbout = () => {
           </AnimatedItem>
 
           <AnimatedItem direction="horizontal" reverse={false}>
-            <p className="mt-4 text-sm text-slate-300">
-            Hi! I'm alvin, a web developer focused on user experience (UX) and React-based applications. I specialize in building dynamic user interfaces using React and JavaScript. I also have experience in developing applications using TypeScript. I always prioritize efficiency and accessibility, ensuring that every application I build provides a fast and easily accessible user experience for everyone, anywhere. I'm passionate about continuously improving my web development skills and am eager to collaborate with teams focused on innovation and relevant technological solutions. Feel free to reach out if you're interested in collaborating or checking out more of my projects below.
+            <p className="mt-4 text-justify text-sm text-slate-300 sm:text-left sm:text-base">
+              Hi! I'm alvin, a web developer focused on{" "}
+              <b>user experience (UX) and React-based applications</b>. I
+              specialize in building dynamic user interfaces using{" "}
+              <b>React and JavaScript</b>. I also have experience in developing
+              applications using TypeScript. I always prioritize efficiency and
+              accessibility, ensuring that every application I build provides a
+              fast and easily accessible user experience for everyone, anywhere.
+              I'm passionate about continuously improving my web development
+              skills and am eager to collaborate with teams focused on
+              innovation and relevant technological solutions. Feel free to
+              reach out if you're interested in collaborating or checking out
+              more of my projects below.
             </p>
           </AnimatedItem>
         </div>
@@ -55,7 +65,7 @@ const SectionAbout = () => {
         <ScrollVelocity
           texts={["Alvinnes", "Good Boy"]}
           velocity={100}
-          className="text-6xl font-medium"
+          className="text-6xl font-medium sm:text-8xl"
         />
       </div>
       <RadialShadow position="bottom-30 left-2 blur-[5rem]" />

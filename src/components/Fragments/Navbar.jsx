@@ -9,7 +9,7 @@ const Navbar = () => {
     setIsClicked(!isClicked);
   };
   return (
-    <nav className="fixed top-0 right-0 left-0 z-999 flex items-center justify-between bg-slate-800 px-[5%] py-4">
+    <nav className="fixed top-4 left-1/2 z-999 flex w-11/12 -translate-x-1/2 items-center justify-between rounded-md bg-slate-700 px-[5%] py-6">
       <h3 className="text-xl font-semibold text-white">
         <Link to="/">Alvinnes</Link>
       </h3>

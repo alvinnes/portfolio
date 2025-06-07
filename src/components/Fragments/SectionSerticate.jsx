@@ -11,10 +11,8 @@ const SectionCertificate = () => {
       id="certificate"
     >
       <SubTitle title="Certification" />
-      <div className="flex w-10/12 flex-col gap-4 sm:w-9/12 sm:flex-row">
+      <div className="flex w-10/12 flex-col justify-center gap-4 sm:w-9/12 sm:flex-row">
         <CardCertificate img="/img/certificate-1.png" />
-        <CardCertificate delay={200} img="/img/certificate-1.png" />
-        <CardCertificate delay={400} img="/img/certificate-1.png" />
       </div>
       <RadialShadow position="top-0 right-15" blur="blur-[6rem]" />
       <RadialShadow position="-bottom-20 left-0" blur="blur-[6rem]" />
@@ -62,9 +60,9 @@ const ModalCertificate = ({ isClicked, setIsClicked, img }) => {
     <div
       className={`${isClicked ? "visible opacity-100" : "invisible opacity-0"} fixed top-0 left-0 z-1000 flex h-screen w-full items-center justify-center bg-white/10 backdrop-blur-[1rem] transition-all duration-600`}
     >
-      <div className="relative h-100 w-11/12 bg-white sm:h-130 sm:w-5xl">
+      <div className="relative h-100 w-11/12 bg-white p-2 rounded-md sm:h-[80%] sm:w-5xl">
         <span
-          className="absolute -top-2 -right-2 flex size-8 cursor-pointer items-center justify-center rounded-full bg-slate-700 text-white transition-all duration-300 hover:rotate-180"
+          className="absolute -top-2 -right-2 flex size-8 cursor-pointer items-center justify-center rounded-full bg-slate-400 text-white transition-all duration-300 hover:rotate-180"
           onClick={handleCloseModal}
         >
           <X size={23} />

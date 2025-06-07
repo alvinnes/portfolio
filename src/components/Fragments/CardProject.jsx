@@ -3,7 +3,7 @@ import AnimatedContent from "../../react-bits/components/AnimatedContent/Animate
 import { ArrowsOut } from "@phosphor-icons/react";
 import ModalIframe from "./Modal";
 
-const CardProject = ({ img, title, delay, url }) => {
+const CardProject = ({ img, title,description, delay, url }) => {
   const [isActive, setIsActive] = useState(false);
   const handleShowIframe = () => {
     setIsActive(true);
@@ -11,7 +11,7 @@ const CardProject = ({ img, title, delay, url }) => {
   return (
     <Fragment>
       <AnimatedItem distance={20} delay={delay}>
-        <div className="h-60 w-80 rounded-md bg-slate-200 p-2">
+        <div className="h-73 w-80 rounded-md bg-slate-200 p-2">
           <div
             className="group relative h-40 w-full cursor-pointer rounded-md bg-slate-700"
             onClick={handleShowIframe}
@@ -26,6 +26,7 @@ const CardProject = ({ img, title, delay, url }) => {
             </div>
           </div>
           <h2 className="mt-2 font-bold text-slate-700">{title}</h2>
+          <p className="text-sm mt-2">{description}</p>
         </div>
       </AnimatedItem>
       <ModalIframe isActive={isActive} setIsActive={setIsActive} url={url} />

@@ -48,3 +48,7 @@
 .animate-shine {
   animation: shine 5s linear infinite;
 }
+
+.scroll-style::-webkit-scrollbar {
+  width: 0;
+}

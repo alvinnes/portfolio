@@ -39,10 +39,10 @@ const SectionHome = () => {
           delay={150}
           animateBy="words"
           direction="top"
-          className="mb-4 text-4xl font-bold sm:mb-6 sm:text-6xl"
+          className="mb-4 text-4xl font-bold sm:mb-12 sm:text-7xl"
         />
         <AnimatedItem distance={50} direction="horizontal" reverse={true}>
-          <p className="mb-2 w-11/12 text-sm sm:mb-4 sm:w-lg">
+          <p className="sm:text-base mb-2 w-11/12 text-sm sm:mb-6 sm:w-lg">
             Hi, I'm alvin, a web developer focused on building interactive and
             responsive applications using React, JavaScript, and modern
             technologies.
@@ -56,13 +56,13 @@ const SectionHome = () => {
               speed="3s"
               className="animate-star-movement-top mt-4"
             >
-              <button className="sm:text-md cursor-pointer bg-slate-900 px-4 py-2.5 text-sm shadow-md">
+              <button className="sm:text-md cursor-pointer bg-slate-900 px-8 py-2.5 text-sm shadow-md">
                 <a href="#about">Read More</a>
               </button>
             </StarBorder>
           </AnimatedItem>
           <AnimatedItem direction="horizontal" reverse={false} distance={20}>
-            <button className="sm:text-md relative mt-4 cursor-pointer rounded-md border-2 border-solid border-white bg-transparent px-4 py-2 text-sm font-semibold transition-all duration-300 before:absolute before:top-0 before:left-0 before:-z-1 before:size-full before:origin-left before:scale-x-0 before:bg-white before:transition-all before:duration-300 hover:text-black hover:before:scale-x-100">
+            <button className="sm:text-md relative mt-4 cursor-pointer rounded-md border-2 border-solid border-white bg-transparent px-8 py-2 text-sm font-semibold transition-all duration-300 before:absolute before:top-0 before:left-0 before:-z-1 before:size-full before:origin-left before:scale-x-0 before:bg-white before:transition-all before:duration-300 hover:text-black hover:before:scale-x-100">
               <a href="#projects">View Project</a>
             </button>
           </AnimatedItem>

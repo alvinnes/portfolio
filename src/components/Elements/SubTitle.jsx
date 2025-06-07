@@ -11,7 +11,7 @@ const SubTitle = ({ title }) => {
       animateOpacity
       delay={300}
     >
-      <h2 className="mb-15 text-2xl font-semibold text-white">{title}</h2>
+      <h2 className="mb-15 text-4xl font-bold text-white">{title}</h2>
     </AnimatedContent>
   );
 };
