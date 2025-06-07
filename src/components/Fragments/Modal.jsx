@@ -9,7 +9,7 @@ const ModalIframe = ({ isActive, setIsActive, url }) => {
     <div
       className={`${isActive && "visible opacity-100"} scroll-style invisible fixed top-0 left-0 z-1000 flex h-screen w-full flex-col items-center justify-center opacity-0 backdrop-blur-[1rem] transition-all duration-300 ease-in`}
     >
-      <div className="relative h-100 w-11/12 bg-white p-2 sm:h-[80%] sm:w-10/12">
+      <div className="relative h-[80%] w-11/12 bg-white p-2 sm:w-10/12">
         <span
           className="absolute -top-2 -right-3 flex size-8 cursor-pointer items-center justify-center rounded-full bg-slate-800 p-1 text-white transition-all duration-300 hover:rotate-180"
           onClick={handleCloseIframe}

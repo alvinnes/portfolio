@@ -40,5 +40,5 @@ export const ErrorMessageMsg = ({ errors }) => {
 };
 
 const ErrorMessage = ({ message }) => {
-  return <p className="-mt-2 mb-4 font-semibold text-red-500">{message}</p>;
+  return <p className="-mt-2 mb-4 text-center font-semibold text-red-500">{message}</p>;
 };

@@ -79,7 +79,7 @@ const FormContact = () => {
         {submittingForm ? "Loading..." : "Submit"}
       </button>
       <div
-        className={`${submittingForm ? "opcaity-100 -top-20" : "-top-50 opacity-0"} absolute left-1/2 z-1000 flex w-xs -translate-x-1/2 items-center gap-4 rounded-sm bg-white p-2 font-semibold text-slate-600 shadow-sm transition-all duration-600 ease-in-out`}
+        className={`${submittingForm ? "opcaity-100 top-20" : "top-0 opacity-0"} absolute left-1/2 z-10000 flex w-xs -translate-x-1/2 items-center gap-4 rounded-sm bg-white p-2 font-semibold text-slate-600 shadow-sm transition-all duration-600 ease-in-out`}
       >
         <CheckCircleIcon size={40} className="font-bold text-green-400" />
         Berhasil Terkirim
